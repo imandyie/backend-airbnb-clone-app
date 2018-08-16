@@ -1,0 +1,19 @@
+{
+  "name": "airbnbCloneBackend",
+  "version": "0.0.1",
+  "description": "This is the backend for Airbnb React Native clone app",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "mongoose": "^5.2.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1",
+    "@babel/register": "^7.0.0-rc.1"
+  }
+}
