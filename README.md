@@ -1,5 +1,5 @@
 # backend-airbnb-clone-app
-This is the backend for the Airbnb react native mobile app clone which you can find [https://github.com/imandyie/react-native-airbnb-clone](here)
+This is the backend for the Airbnb react native mobile app clone which you can find [here](https://github.com/imandyie/react-native-airbnb-clone)
 
 ## Docker commands
 - `docker images` - Lists all Docker images
