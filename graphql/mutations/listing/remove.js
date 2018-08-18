@@ -14,8 +14,8 @@ export default {
       type: new GraphQLNonNull(GraphQLID)
     }
   },
-  resolve (root, params, options) {
-    const removedListing = ListingModel
+  async resolve (root, params, options) {
+    const removedListing = await ListingModel
       .findByIdAndRemove(params._id)
       .exec();
 

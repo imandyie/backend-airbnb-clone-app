@@ -17,8 +17,6 @@ export default {
     }
   },
   resolve (root, params, options) {
-    const projection = getProjection(options.fieldASTs[0]);
-
     return ListingModel
       .findById(params.id)
       .exec();

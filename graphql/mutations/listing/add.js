@@ -15,9 +15,9 @@ export default {
       type: new GraphQLNonNull(listingInputType)
     }
   },
-  resolve (root, params) {
+  async resolve (root, params) {
     const listingModel = new ListingModel(params.data);
-    const newListing = listingModel.save();
+    const newListing = await listingModel.save();
 
     if (!newListing) {
       throw new Error('Error adding new listing');
